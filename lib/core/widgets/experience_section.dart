@@ -13,6 +13,13 @@ class ExperienceSection extends StatelessWidget {
 
     final timeline = [
       {
+        'title': 'Senior Developer - App Development Society',
+        'institution': 'City University of Sciences & Information Technology',
+        'duration': 'Aug 2025 – Present',
+        'description':
+            'Developing multiple projects given by University and also helping and teaching junior developers.',
+      },
+      {
         'title': 'Mobile App Development Internship',
         'institution': 'Under Senior Developer Moiz Altaf',
         'duration': 'Feb 2025 – Aug 2025',
@@ -24,7 +31,7 @@ class ExperienceSection extends StatelessWidget {
         'institution': 'Self-Directed',
         'duration': '2023 – Present',
         'description':
-            'Built & deployed apps like Let It Fly, PayProof, Afghan Flavors. Full lifecycle: UI/UX, development, testing, deployment.',
+            'Built & deployed apps like Let It Fly, PayProof, Afghan Flavors. Full lifecycle: UI/UX, development, testing, deployment. Currently working on a SaaS.',
       },
     ];
 

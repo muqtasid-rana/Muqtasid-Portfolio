@@ -80,7 +80,7 @@ class HeroSection extends StatelessWidget {
         child: CircleAvatar(
           radius: AppSizes.wp(isMobile ? 25 : 12),
           backgroundColor: bg,
-          backgroundImage: const AssetImage('assets/muqtasid.png'),
+          backgroundImage: const AssetImage('assets/muq.png'),
         ),
       ),
 
@@ -94,28 +94,45 @@ class HeroSection extends StatelessWidget {
           children: [
             Text(
               "Muhammad Muqtasid Rana",
+              textAlign: TextAlign.center,
               style: AppTextStyles.heading.copyWith(
                 fontSize: AppSizes.sp(isMobile ? 22 : 28),
               ),
             ),
+            // Padding(
+            //   padding: AppPaddings.vertical2,
+            //   child: Text(
+            //     "Software Engineer | Flutter Apps Developer | Firebase Specialist",
+            //     style: AppTextStyles.subheading.copyWith(
+            //       fontSize: AppSizes.sp(isMobile ? 14 : 18),
+            //     ),
+            //     textAlign: isMobile ? TextAlign.center : TextAlign.start,
+            //   ),
+            // ),
             Padding(
-              padding: AppPaddings.vertical2,
+              padding: isMobile
+                  ? AppPaddings.onlyLTRB(3, 2, 3, 2)
+                  : AppPaddings.vertical2,
               child: Text(
-                "Software Engineer | Flutter Apps Developer | Firebase Specialist",
-                style: AppTextStyles.subheading.copyWith(
-                  fontSize: AppSizes.sp(isMobile ? 14 : 18),
+                "Mobile Applications developer having expertise in Flutter and Firebase, building high-performance cross-platform applications with clean architecture (MVVM), responsive UI/UX, and delivering modern digital experiences.",
+                style: AppTextStyles.body.copyWith(
+                  fontSize: AppSizes.sp(isMobile ? 12 : 14),
+                ),
+                textAlign: isMobile ? TextAlign.justify : TextAlign.start,
+              ),
+            ),
+            Padding(
+              padding: isMobile
+                  ? AppPaddings.onlyLTRB(3, 2, 3, 4)
+                  : AppPaddings.onlyLTRB(0, 2, 0, 4),
+              child: Text(
+                "I help startups launch MVPs in just 7 days — and scale into fully functional apps fast. Book a meeting today.",
+                style: AppTextStyles.body.copyWith(
+                  fontSize: AppSizes.sp(isMobile ? 12 : 14),
                 ),
                 textAlign: isMobile ? TextAlign.center : TextAlign.start,
               ),
             ),
-            Text(
-              "I’m a passionate Flutter developer with expertise in Firebase, building high-performance cross-platform applications. My focus is on clean architecture (MVVM), responsive UI/UX, and delivering modern digital experiences.",
-              style: AppTextStyles.body.copyWith(
-                fontSize: AppSizes.sp(isMobile ? 12 : 14),
-              ),
-              textAlign: isMobile ? TextAlign.center : TextAlign.start,
-            ),
-            SizedBox(height: AppSizes.hp(3)),
 
             // Social Buttons
             Wrap(
@@ -125,16 +142,17 @@ class HeroSection extends StatelessWidget {
                   spacing: AppSizes.wp(2),
                   children: [
                     SocialButton(
-                      icon: FontAwesomeIcons.linkedin,
+                      icon: FontAwesomeIcons.phone,
+                      textColor: Colors.black,
+                      text: "Book a meeting",
+                      url: 'https://calendly.com/mmuqtasidrana/30min',
+                      color: const Color(0xfff5f5f5),
+                    ),
+                    SocialButton(
+                      icon: FontAwesomeIcons.video,
                       text: "LinkedIn",
                       url: 'https://www.linkedin.com/in/muqtasid-rana',
                       color: const Color(0xFF0077B5),
-                    ),
-                    SocialButton(
-                      icon: FontAwesomeIcons.github,
-                      text: "GitHub",
-                      url: 'https://github.com/muqtasid-rana',
-                      color: Colors.black,
                     ),
                   ],
                 ),

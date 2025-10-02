@@ -20,11 +20,11 @@ class ProjectsSection extends StatelessWidget {
         'images': ['assets/mockups/letitfly.png'],
         'caseStudy': {
           'problem':
-              'People needed a safe space to share feelings anonymously because there is no such platform that provides a place where people can rent out their heart without the fear of being judged',
+              'People needed a safe space to share feelings anonymously because there is no platform that allows expressing emotions without fear of judgment.',
           'solution':
-              'Gave people a place to share their deep down thoughts anonymously',
+              'Built an anonymous emotional support platform where users can write, share, and connect freely without revealing their identity.',
           'techStack':
-              'Flutter, MVVM Architecture, Provider, Firebase Auth, Firestore, Storage, Cloud Functions, Notifictions, AI integration, Google Ads',
+              'Flutter, MVVM Architecture, Provider, Firebase Auth, Firestore, Storage, Cloud Functions, Notifications, AI integration, Google Ads',
           'result': 'Currently in deployment process.'
         }
       },
@@ -34,24 +34,26 @@ class ProjectsSection extends StatelessWidget {
         'images': ['assets/mockups/payproof.png'],
         'caseStudy': {
           'problem':
-              'Users struggled to store payment details and access it when needed, or keep a proof of their transaction and sending it to others.',
+              'Users struggled to securely store and access their payment details or provide proof of transactions when needed.',
           'solution':
-              'Created a shareable transaction proof system with Firebase backend. Where people will not lose their transection details and easily share it with anyone with a public link.',
+              'Developed a transaction proof system with shareable links so users never lose transaction details and can easily share them with anyone.',
           'techStack':
-              'Flutter, MVVM Architectire, Provider, Firebase Auth, Firestore, Storage, Google Ads',
-          'result': 'Currently in deployment process.'
+              'Flutter, MVVM Architecture, Provider, Firebase Auth, Firestore, Storage, Google Ads',
+          'result': 'Currently in Early Access on PlayStore.'
         }
       },
       {
-        'title': 'Afghan Flavors',
-        'desc': 'Recipe app with API integration & category filters.',
-        'images': ['assets/mockups/afghan.png'],
+        'title': 'Muslim One',
+        'desc': 'Complete Muslim Companion App',
+        'images': ['assets/mockups/muslimone.png'],
         'caseStudy': {
-          'problem': 'Food lovers wanted easy recipe discovery with filtering.',
+          'problem':
+              'Muslims wanted an all-in-one Islamic app for Quran, translations, audio, hadiths, prayer times, qibla direction, Islamic calendar, tasbeeh, asma-ul-husna, and more — without intrusive ads.',
           'solution':
-              'Built an API-based recipe explorer with category filtering, resteraunt search APIs and more.',
-          'techStack': 'Flutter, REST APIs',
-          'result': 'Helped real developers to implement logics'
+              'Built a complete Islamic companion app with Quran, tafseer, prayer times, hadith collection, qibla finder, tasbeeh counter, Islamic calendar, asma-ul-husna, and more in a distraction-free experience.',
+          'techStack':
+              'Flutter, Firebase, Local Database, REST APIs, Google Ads (Banner only for Unbothered ads)',
+          'result': 'Currently in Early Access on PlayStore.'
         }
       },
       {
@@ -59,11 +61,50 @@ class ProjectsSection extends StatelessWidget {
         'desc': 'News app with REST API integration, category feeds.',
         'images': ['assets/mockups/worldnews.png'],
         'caseStudy': {
-          'problem': 'Users needed real-time categorized news updates.',
+          'problem':
+              'Users needed a reliable source for real-time categorized news updates.',
           'solution':
-              'Created a news app with REST API and category-based feeds which shows real time updates.',
+              'Created a news app with REST API integration and category-based feeds to deliver real-time global updates.',
           'techStack': 'Flutter, News API, MVVM Architecture',
-          'result': 'Currently in Early access on Play Store.'
+          'result': 'Currently in Early Access on Play Store.'
+        }
+      },
+      {
+        'title': 'Etisalat AFG Sdk API Developement',
+        'desc':
+            'Developed several APIs using firebase & NodeJS for Etisalat SDK',
+        'images': ['assets/mockups/etisalat.png'],
+        'caseStudy': {
+          'problem': 'Client needed APIs to make the app work',
+          'solution': 'Created as many APIs needed for client.',
+          'techStack': 'Flutter, Firebase, NodeJS, MVVM Architecture',
+          'result': 'Client was happy with the results'
+        }
+      },
+      {
+        'title': 'PMDC School Learning Management System UI',
+        'desc': 'Learning management system interface for schools.',
+        'images': ['assets/mockups/lms.png'],
+        'caseStudy': {
+          'problem':
+              'Schools needed a modern and easy-to-use LMS interface to manage students, teachers, and classes.',
+          'solution':
+              'Designed and developed a complete UI for a school learning management system with dashboards, attendance, assignments, and results sections.',
+          'techStack': 'Flutter, Provider (UI-focused)',
+          'result': 'Provided a scalable and modern LMS UI for institutions.'
+        }
+      },
+      {
+        'title': 'Agro Mart',
+        'desc': 'Grocery and agriculture marketplace app.',
+        'images': ['assets/mockups/agroo.png'],
+        'caseStudy': {
+          'problem':
+              'Farmers and customers lacked a digital marketplace to buy and sell fresh produce and groceries directly.',
+          'solution':
+              'Built a grocery and agriculture marketplace app where users can browse, order, and manage deliveries easily.',
+          'techStack': 'Flutter, Firebase, MVVM Architecture, REST APIs',
+          'result': 'Currently Working on Database.'
         }
       },
     ];
@@ -116,6 +157,12 @@ class ProjectsSection extends StatelessWidget {
         'desc':
             'A pixel-perfect WhatsApp UI clone with chat list, message view, and status layout.',
         'images': ['assets/mockups/whatsapp.png'],
+      },
+      {
+        'title': 'TaskMate - Todo App',
+        'desc':
+            'An attractive TODO List App using RestFul APIS with CRUD operations.',
+        'images': ['assets/mockups/todo.png'],
       },
     ];
 

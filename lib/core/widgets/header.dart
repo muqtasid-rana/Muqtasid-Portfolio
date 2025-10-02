@@ -15,9 +15,9 @@ class AppHeader extends StatelessWidget {
     final menuItems = [
       'intro',
       'skills',
-      'education',
-      'experience',
       'projects',
+      'experience',
+      'education',
       'certifications',
       'contact'
     ];
@@ -45,7 +45,7 @@ class AppHeader extends StatelessWidget {
                         child: Text(
                           item.toUpperCase(),
                           style: AppTextStyles.subheading
-                              .copyWith(fontSize: AppSizes.sp(14)),
+                              .copyWith(fontSize: AppSizes.sp(13)),
                         ),
                       ),
                     ),

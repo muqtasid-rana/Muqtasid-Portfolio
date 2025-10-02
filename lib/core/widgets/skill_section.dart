@@ -17,9 +17,13 @@ class SkillsSection extends StatelessWidget {
         'icon': FontAwesomeIcons.database,
         'text': 'Firebase (Auth, Firestore, Storage, Functions)'
       },
-      {'icon': FontAwesomeIcons.globe, 'text': 'REST API Integration'},
+      {
+        'icon': FontAwesomeIcons.globe,
+        'text': 'REST API Integration & Development'
+      },
       {'icon': FontAwesomeIcons.layerGroup, 'text': 'MVVM Architecture'},
       {'icon': FontAwesomeIcons.paintBrush, 'text': 'UI/UX Design'},
+      {'icon': FontAwesomeIcons.robot, 'text': 'AI Integration'},
       {'icon': FontAwesomeIcons.google, 'text': 'Google Ads'},
       {'icon': FontAwesomeIcons.nodeJs, 'text': 'NodeJS Basics'},
       {'icon': FontAwesomeIcons.python, 'text': 'Python Basics'},
@@ -32,11 +36,14 @@ class SkillsSection extends StatelessWidget {
       {'icon': FontAwesomeIcons.code, 'text': 'VS Code'},
       {'icon': FontAwesomeIcons.android, 'text': 'Android Studio'},
       {'icon': FontAwesomeIcons.fire, 'text': 'Firebase Console'},
+      {'icon': FontAwesomeIcons.fire, 'text': 'Firebase Studio'},
       {'icon': FontAwesomeIcons.paperPlane, 'text': 'Postman'},
       {'icon': FontAwesomeIcons.figma, 'text': 'Figma'},
       {'icon': FontAwesomeIcons.googlePlay, 'text': 'Google Play Console'},
       {'icon': FontAwesomeIcons.github, 'text': 'Git & GitHub'},
       {'icon': FontAwesomeIcons.terminal, 'text': 'Command Line'},
+      {'icon': FontAwesomeIcons.robot, 'text': 'Hugging Face'},
+      {'icon': FontAwesomeIcons.m, 'text': 'Make'},
     ];
 
     if (isMobile) {
@@ -141,10 +148,12 @@ class _SkillCardState extends State<_SkillCard> {
               size: AppSizes.sp(16),
             ),
             SizedBox(width: AppSizes.wp(2)),
-            Text(
-              widget.text,
-              style: AppTextStyles.body.copyWith(
-                fontSize: AppSizes.sp(13),
+            Expanded(
+              child: Text(
+                widget.text,
+                style: AppTextStyles.body.copyWith(
+                  fontSize: AppSizes.sp(13),
+                ),
               ),
             ),
           ],

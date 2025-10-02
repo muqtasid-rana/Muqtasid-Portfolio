@@ -12,6 +12,7 @@ import 'package:muqtasid_portfolio/core/widgets/project_section.dart';
 import 'package:muqtasid_portfolio/core/widgets/reusable_heading.dart';
 import 'package:muqtasid_portfolio/core/widgets/section_wrapper.dart';
 import 'package:muqtasid_portfolio/core/widgets/skill_section.dart';
+import 'package:muqtasid_portfolio/core/widgets/workshops.dart';
 import 'package:muqtasid_portfolio/view_models/navigation_view_model.dart';
 import 'package:provider/provider.dart';
 
@@ -69,9 +70,9 @@ class _PortfolioPageState extends State<PortfolioPage> {
             ...[
               'intro',
               'skills',
-              'education',
-              'experience',
               'projects',
+              'experience',
+              'education',
               'certifications',
               'contact'
             ].map((section) => ListTile(
@@ -108,24 +109,31 @@ class _PortfolioPageState extends State<PortfolioPage> {
                     child: const SkillsSection(),
                   ),
                 ),
-                ReusableHeading(text: 'Education'),
-
-                SectionWrapper(
-                  key: navVM.sectionKeys['education'],
-                  child: const EducationSection(),
-                ),
-                ReusableHeading(text: 'Experience'),
-
-                SectionWrapper(
-                  key: navVM.sectionKeys['experience'],
-                  child: const ExperienceSection(),
-                ),
                 ReusableHeading(text: 'Projects'),
 
                 SectionWrapper(
                   maxWidth: 1300,
                   key: navVM.sectionKeys['projects'],
                   child: const ProjectsSection(),
+                ),
+
+                ReusableHeading(text: 'Experience'),
+
+                SectionWrapper(
+                  key: navVM.sectionKeys['experience'],
+                  child: const ExperienceSection(),
+                ),
+                ReusableHeading(text: 'Education'),
+
+                SectionWrapper(
+                  key: navVM.sectionKeys['education'],
+                  child: const EducationSection(),
+                ),
+                ReusableHeading(text: 'WorkShops'),
+
+                SectionWrapper(
+                  // key: navVM.sectionKeys['education'],
+                  child: const Workshops(),
                 ),
                 Padding(
                   padding: AppPaddings.vertical4,
@@ -143,7 +151,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
-                    'Made by Muqtasid Rana',
+                    'Copyright © 2025 Muhammad Muqtasid Rana',
                     style: AppTextStyles.caption,
                   ),
                 )

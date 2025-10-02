@@ -42,11 +42,11 @@ class _SocialButtonState extends State<SocialButton> {
             }
           },
           icon: FaIcon(widget.icon,
-              color: widget.textColor, size: AppSizes.sp(16)),
+              color: widget.textColor, size: AppSizes.sp(13)),
           label: Text(
             widget.text,
             style: AppTextStyles.button.copyWith(
-              fontSize: AppSizes.sp(14),
+              fontSize: AppSizes.sp(12),
               color: widget.textColor,
             ),
           ),
@@ -54,8 +54,8 @@ class _SocialButtonState extends State<SocialButton> {
             backgroundColor: widget.color,
             foregroundColor: widget.textColor,
             padding: EdgeInsets.symmetric(
-              horizontal: AppSizes.wp(4),
-              vertical: AppSizes.hp(1.8),
+              horizontal: AppSizes.wp(3),
+              vertical: AppSizes.hp(2),
             ),
           ),
         ),
