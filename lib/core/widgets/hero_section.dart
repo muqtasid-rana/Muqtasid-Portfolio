@@ -114,7 +114,7 @@ class HeroSection extends StatelessWidget {
                   ? AppPaddings.onlyLTRB(3, 2, 3, 2)
                   : AppPaddings.vertical2,
               child: Text(
-                "Mobile Applications developer having expertise in Flutter and Firebase, building high-performance cross-platform applications with clean architecture (MVVM), responsive UI/UX, and delivering modern digital experiences.",
+                "I’m a Software Engineer specializing in building complete digital products. From websites and web apps to mobile applications, SaaS platforms, and full management systems. I also handle UI/UX and product design, and follow best software engineering practices including proper documentation, system workflows, clean architecture, and scalable, maintainable solutions.",
                 style: AppTextStyles.body.copyWith(
                   fontSize: AppSizes.sp(isMobile ? 12 : 14),
                 ),
@@ -126,7 +126,7 @@ class HeroSection extends StatelessWidget {
                   ? AppPaddings.onlyLTRB(3, 2, 3, 4)
                   : AppPaddings.onlyLTRB(0, 2, 0, 4),
               child: Text(
-                "I help startups launch MVPs in just 7 days — and scale into fully functional apps fast. Book a meeting today.",
+                "I help startups launch MVPs in just 7 days and scale into fully functional softwares fast. Book a meeting today.",
                 style: AppTextStyles.body.copyWith(
                   fontSize: AppSizes.sp(isMobile ? 12 : 14),
                 ),

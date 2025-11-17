@@ -20,6 +20,13 @@ class CertificationsSection extends StatelessWidget {
             'Completed an in-depth course covering Flutter app development with Firebase integration, MVVM architecture, authentication, Firestore, and cloud storage.'
       },
       {
+        'title': 'Digital Innovative Challenge KPK Participation',
+        'issuer': 'WatSan Cell, Board of Khyber Pakhtunkhwa',
+        'date': 'Issued Nov 2025',
+        'description':
+            'Developed an idea about hygene and secured 3rd position accross all universities in KPK.'
+      },
+      {
         'title': 'Skillathon Participation In App Development',
         'issuer': 'City University Of Sciences & Information Technology',
         'date': 'Issued Dec 2024',
@@ -39,6 +46,13 @@ class CertificationsSection extends StatelessWidget {
         'date': 'Issued May 2025',
         'description':
             'Studied the fundamentals of networking including IP addressing, subnetting, network protocols, and essential troubleshooting skills.'
+      },
+      {
+        'title': 'HTML/CSS',
+        'issuer': 'CISCO',
+        'date': 'Issued Aug 2025',
+        'description':
+            'Learned HTML and CSS in depth, which are crucial for web development.'
       },
       {
         'title': 'Microsoft Learner Student Ambassador',

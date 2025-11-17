@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:muqtasid_portfolio/constants/app_text_styles.dart';
 import 'package:muqtasid_portfolio/constants/colors.dart';
+import 'package:muqtasid_portfolio/core/widgets/achivements.dart';
 import 'package:muqtasid_portfolio/core/widgets/certifications_section.dart';
 import 'package:muqtasid_portfolio/core/widgets/contact_section.dart';
 import 'package:muqtasid_portfolio/constants/paddings.dart';
@@ -73,7 +74,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
               'projects',
               'experience',
               'education',
-              'certifications',
+              'achievements',
               'contact'
             ].map((section) => ListTile(
                   title: Text(
@@ -129,6 +130,12 @@ class _PortfolioPageState extends State<PortfolioPage> {
                   key: navVM.sectionKeys['education'],
                   child: const EducationSection(),
                 ),
+                ReusableHeading(text: 'Achievements'),
+
+                SectionWrapper(
+                  key: navVM.sectionKeys['achievements'],
+                  child: const Achievements(),
+                ),
                 ReusableHeading(text: 'WorkShops'),
 
                 SectionWrapper(
@@ -141,7 +148,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
                 ),
 
                 SectionWrapper(
-                  key: navVM.sectionKeys['certifications'],
+                  // key: navVM.sectionKeys['certifications'],
                   child: const CertificationsSection(),
                 ),
                 SectionWrapper(

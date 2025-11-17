@@ -14,6 +14,54 @@ class ProjectsSection extends StatelessWidget {
 
     final mainProjects = [
       {
+        'title': 'Inayat Motors Bike Shop Management System.',
+        'desc':
+            'A complete bike shop management system with Invoice generation system, billing, inventory, sales tracking, and customer management.',
+        'images': ['assets/mockups/inayat.png'],
+        'caseStudy': {
+          'problem':
+              'Bike shops often struggle with manual record-keeping, inaccurate stock tracking, and slow billing processes.',
+          'solution':
+              'Developed a full management system that automates inventory updates, billing, customer info, and sales history—making daily operations fast and accurate.',
+          'techStack':
+              'ReactJS, NodeJS, Flutter, Firebase Firestore, Firebase Auth, MVVM Architecture, Cloud Functions, Local Storage, PDF Generation',
+          'result':
+              'Successfully deployed for Inayat Motors, improving workflow speed and reducing inventory errors.'
+        }
+      },
+      {
+        'title': 'RPM Dynamics - Motorbike Shop Website',
+        'desc':
+            'A modern, responsive website for an automotive shop to showcase bikes, services, and contact information.',
+        'images': ['assets/mockups/rpm.png'],
+        'caseStudy': {
+          'problem':
+              'RPM Dynamics needed an online presence to showcase their bikes and services, but they had no website to attract digital customers.',
+          'solution':
+              'Designed and developed a fast, SEO-optimized website with product display, service pages, and a lead-generation contact section.',
+          'techStack':
+              'HTML, CSS, JavaScript, Responsive Layout, SEO Optimization, Hosting on Vercel',
+          'result':
+              'Website successfully launched, increasing customer inquiries and improving brand credibility.'
+        }
+      },
+      {
+        'title': 'Incorpo - Automated Hiring System',
+        'desc':
+            'A fully automated hiring system that parses CVs, filters candidates, rate candidates accordingly and sends an automated email to selected candidate. Simplifies the recruitment process.',
+        'images': ['assets/mockups/incorpo.png'],
+        'caseStudy': {
+          'problem':
+              'Companies waste hours manually reviewing CVs, filtering candidates, and managing recruitment data.',
+          'solution':
+              'Built an automated hiring platform that parses CVs, extracts candidate skills, ranks profile.',
+          'techStack':
+              'ReactJS, NodsJS, Flutter, Firebase Firebase Auth, Firestore, Cloud Functions, Python CV Parsing API, AI-based Ranking, MVVM Architecture',
+          'result':
+              'Currently in deployment, with automation reducing screening time by over 70%.'
+        }
+      },
+      {
         'title': 'Let It Fly',
         'desc':
             'Anonymous emotional app with Firebase, MVVM, Ads, Notifications.',
@@ -54,6 +102,18 @@ class ProjectsSection extends StatelessWidget {
           'techStack':
               'Flutter, Firebase, Local Database, REST APIs, Google Ads (Banner only for Unbothered ads)',
           'result': 'Currently in Early Access on PlayStore.'
+        }
+      },
+      {
+        'title': 'Groflex Website',
+        'desc': 'Website for an online services agency',
+        'images': ['assets/mockups/groflex.png'],
+        'caseStudy': {
+          'problem': 'I wanted a website for my online agency',
+          'solution':
+              'Built a website for my agency with Flutter and hosted on firebase. Made the UI clean and visually appealing',
+          'techStack': 'Flutter & Firebase',
+          'result': 'Drove traffic to my agency'
         }
       },
       {

@@ -12,24 +12,31 @@ class SkillsSection extends StatelessWidget {
   Widget build(BuildContext context) {
     final isMobile = MediaQuery.of(context).size.width < 800;
     final skills = [
-      {'icon': FontAwesomeIcons.mobile, 'text': 'Flutter & Dart'},
+      {
+        'icon': FontAwesomeIcons.mobile,
+        'text': 'Mobile App Development ( Flutter & Dart )'
+      },
       {
         'icon': FontAwesomeIcons.database,
-        'text': 'Firebase (Auth, Firestore, Storage, Functions)'
+        'text': 'Websites & Web Applications ( ReactJS, NodeJS )'
       },
+      {
+        'icon': FontAwesomeIcons.database,
+        'text': 'Backend & Databases ( Firebase, NodeJS, PHP )'
+      },
+      {'icon': FontAwesomeIcons.globe, 'text': 'Online & Offline Systems'},
       {
         'icon': FontAwesomeIcons.globe,
         'text': 'REST API Integration & Development'
       },
-      {'icon': FontAwesomeIcons.layerGroup, 'text': 'MVVM Architecture'},
+      {'icon': FontAwesomeIcons.layerGroup, 'text': 'MVVM & MVC Architecture'},
       {'icon': FontAwesomeIcons.paintBrush, 'text': 'UI/UX Design'},
       {'icon': FontAwesomeIcons.robot, 'text': 'AI Integration'},
-      {'icon': FontAwesomeIcons.google, 'text': 'Google Ads'},
-      {'icon': FontAwesomeIcons.nodeJs, 'text': 'NodeJS Basics'},
-      {'icon': FontAwesomeIcons.python, 'text': 'Python Basics'},
+      {'icon': FontAwesomeIcons.google, 'text': 'Mobile & Web Ads Integration'},
+      {'icon': FontAwesomeIcons.python, 'text': 'Python'},
       {'icon': FontAwesomeIcons.c, 'text': 'C++'},
       {'icon': FontAwesomeIcons.robot, 'text': 'Prompt Engineering'},
-      {'icon': FontAwesomeIcons.robot, 'text': 'AI Automation Basics'},
+      {'icon': FontAwesomeIcons.robot, 'text': 'AI Automation'},
     ];
 
     final tools = [

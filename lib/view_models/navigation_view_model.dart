@@ -9,7 +9,7 @@ class NavigationViewModel extends ChangeNotifier {
     'projects': GlobalKey(),
     'contact': GlobalKey(),
     'experience': GlobalKey(),
-    'certifications': GlobalKey(),
+    'achievements': GlobalKey(),
   };
 
   void scrollTo(String section) {

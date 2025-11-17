@@ -18,7 +18,7 @@ class AppHeader extends StatelessWidget {
       'projects',
       'experience',
       'education',
-      'certifications',
+      'achievements',
       'contact'
     ];
     final isMobile = MediaQuery.of(context).size.width < 800;

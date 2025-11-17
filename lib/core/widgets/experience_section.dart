@@ -13,11 +13,18 @@ class ExperienceSection extends StatelessWidget {
 
     final timeline = [
       {
-        'title': 'Senior Developer - App Development Society',
+        'title': 'Senior Developer & Representative - App Development Society',
         'institution': 'City University of Sciences & Information Technology',
         'duration': 'Aug 2025 – Present',
         'description':
-            'Developing multiple projects given by University and also helping and teaching junior developers.',
+            'Developing multiple projects given by University and Conducting workshops to teach students. Also representing city university in innovative offical events.',
+      },
+      {
+        'title': 'Incorpo - SaaS Startup',
+        'institution': 'Founder - Self Employed',
+        'duration': 'Present',
+        'description':
+            'Developing my own Automated Recruitment System which will help companies hire faster and smarter.',
       },
       {
         'title': 'Mobile App Development Internship',
