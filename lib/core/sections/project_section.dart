@@ -33,7 +33,7 @@ class ProjectsSection extends StatelessWidget {
         'title': 'RPM Dynamics - Motorbike Shop Website',
         'desc':
             'A modern, responsive website for an automotive shop to showcase bikes, services, and contact information.',
-        'images': ['assets/mockups/rpm.png'],
+        'images': ['assets/mockups/rpmm.png'],
         'caseStudy': {
           'problem':
               'RPM Dynamics needed an online presence to showcase their bikes and services, but they had no website to attract digital customers.',
@@ -49,7 +49,7 @@ class ProjectsSection extends StatelessWidget {
         'title': 'Incorpo - Automated Hiring System',
         'desc':
             'A fully automated hiring system that parses CVs, filters candidates, rate candidates accordingly and sends an automated email to selected candidate. Simplifies the recruitment process.',
-        'images': ['assets/mockups/incorpo.png'],
+        'images': ['assets/mockups/incorp.png'],
         'caseStudy': {
           'problem':
               'Companies waste hours manually reviewing CVs, filtering candidates, and managing recruitment data.',

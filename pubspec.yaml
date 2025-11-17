@@ -67,7 +67,7 @@ flutter:
     - assets/
     - assets/mockups/
   # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/to/resolution-aware-images
+  # https://flutter.dev/to/resolution-aware-imagesd
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/to/asset-from-package

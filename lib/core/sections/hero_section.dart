@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:muqtasid_portfolio/core/widgets/social_buttons.dart';
+import 'package:muqtasid_portfolio/core/sections/social_buttons.dart';
 import 'package:muqtasid_portfolio/view_models/navigation_view_model.dart';
 import 'package:provider/provider.dart';
 import 'package:muqtasid_portfolio/constants/app_sizes.dart';

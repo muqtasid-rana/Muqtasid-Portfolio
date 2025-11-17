@@ -16,14 +16,14 @@ class Achievements extends StatelessWidget {
             'City University KPK Digital Innovation Challenge Representative',
         'desc':
             'Was honoured to represent City University at Digital Innovation Challenge 2025',
-        'images': ['muqhandwash.jpeg'],
+        'images': ['12.png'],
       },
       {
         'title':
             '3rd Position all over KPK Province "Be a hand washing hero" Digital Innovation Challenge 2025 ',
         'desc':
             'Presented an innovative idea about hand hygene on global hand washing day at Digital Innovative Challenge and bag 3rd for my university.',
-        'images': ['muq2.jpeg'],
+        'images': ['13.png'],
       },
     ];
     return _buildProjectGrid(context, _achievements, 'muq2.jpeg',
